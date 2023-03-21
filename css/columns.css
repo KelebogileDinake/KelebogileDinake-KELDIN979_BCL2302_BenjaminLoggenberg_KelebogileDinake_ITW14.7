@@ -1,9 +1,9 @@
 ul {
-    display: flex;
-    flex: 1;
+    display:inline-flex;
+    justify-content: center;
     list-style: none;
-    width: 75rem;
-    
+    width: 75vw;
+    flex-basis: 200px;
 
     /* add solution here */
 }
@@ -12,7 +12,10 @@ li {
     padding: 10px;
     margin: 10px;
     background-color: rgb(245, 173, 41);
-    align-items: center;
+    align-self: center;
+    /*flex-basis: 200px ;*/
+    height: 200px;
+    width: 140vw;
     /* add solution here.. */
 
 }
