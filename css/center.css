@@ -1,5 +1,11 @@
 .parent {
+    display: flex;
+    flex-direction: row;
+    /* for the background color*/
+    background: white;
+    justify-content: space-evenly;
     height: 50vh;
+    align-items: center;
 
     /* add solution here */
 }
